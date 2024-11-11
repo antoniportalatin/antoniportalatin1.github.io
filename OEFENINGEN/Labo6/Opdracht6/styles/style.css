@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.checklist{
+list-style-type: none;
+    padding: 0;
+}
+.checklist li{
+    padding: 4px 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    position: relative;
+}
+.checklist li::before{
+    content:"";
+    width: 16px;
+    height: 16px;
+    border: 2px solid black;
+    display: inline-block;
+    position: absolute;
+    left:2px;
+    top:2px;
+}
+.checklist li.checked::after{
+    content:"✔";
+    color:black;
+    font-size: 15px;
+    position: absolute;
+    left: 5px;
+    top: 3px;
+}
