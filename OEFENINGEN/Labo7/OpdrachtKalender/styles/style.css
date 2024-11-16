@@ -1,0 +1,79 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: lavender;
+}
+h1{
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+}
+table{
+    border-collapse: collapse;
+    width: 65%;
+    table-layout: fixed;
+    margin: 0 auto;
+}
+/*headers*/
+td, th {
+    border: 1px dotted #ccc; /* border puntjes dagen */
+    background-color: white;
+}
+/*maand header*/
+.month-header th{
+    background-color: rgb(170, 170, 200);
+    color: rgb(200, 190, 240);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.5em;
+}
+/*weekdagen header*/
+.weekday-header th{
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    font-weight: bold;
+    padding: 10px;
+}
+/*vorige/volgende maand*/
+tbody tr:first-child td:nth-child(-n+4),
+tbody tr:last-child td:nth-child(n+7){
+    color: grey;
+    background-color: lightgrey;
+}
+/*weekends*/
+td:nth-child(6),
+td:nth-child(7){
+    background-color: rgb(255, 220, 220);
+
+}
+/*feestdagen*/
+tr:nth-child(3)
+td:nth-child(1){
+    background-color: rgb(250, 120, 120);
+    color: white;
+}
+td{
+    padding: 15px;
+    text-align: center;
+    border: 1px dotted black;
+}
+a{
+    margin: auto;
+    padding: 10px 20px;
+    background-color:rgb(35, 37, 70);
+    color:rgb(200, 190, 240);
+    border-radius: 8px;
+    display: block;
+    width: 90%;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+a:hover{
+    background-color: rgb(200, 190, 240);
+    color:rgb(35, 37, 70);
+}
