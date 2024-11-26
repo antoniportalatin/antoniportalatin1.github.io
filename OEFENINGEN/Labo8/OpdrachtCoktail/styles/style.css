@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font: 1.2em Verdana, Helvetica, Arial, sans-serif;
+}
+#wrapper{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imgHeader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2{
+    color: #007e7e;
+}
+h1{
+    font-size: 150%;
+}
+h2{
+    font-size: 130%;
+}
+#elixirs{
+    width: 30%;
+    float: right;
+    border: 1px solid #007e7e;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    background: url("../images/cocktail.gif") repeat-x;
+    line-height: 1;
+}
+.specialH1{
+    font-size: 130%;
+    color: lightskyblue;
+    text-shadow: #2B2D42 3px 3px 2px;
+}
+body>article>h2{
+    font-size: 110%;
+    color: darkgoldenrod;
+    text-shadow: #2B2D42 2px 2px 1px;
+    text-align: center;
+}
+footer{
+    font-size: 50%;
+    text-align: center;
+}
+#origin{
+    float: left;
+    width: 70%;
+}
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    padding-left: 80px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 2px white dashed;
+    overflow: hidden;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-position: 1px -5px;
+}
+
+#cursive{
+    font-style: italic;
+}
+#bold{
+    font-weight: bold;
+}
+body>article>p>a:hover{
+    background-color: #7F4614;
+}
+#back{
+    color: white;
+    text-decoration: none;
+    background-color: darkgoldenrod;
+    padding: 8px;
+    border-radius: 5px;
+}
