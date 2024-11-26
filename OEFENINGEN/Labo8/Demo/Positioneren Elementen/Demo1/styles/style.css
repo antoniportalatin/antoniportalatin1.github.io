@@ -1,0 +1,52 @@
+body{
+    background-color: silver;
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header img{
+    display: block; /*img is een inline element -> converteren naar block*/
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+}
+nav{
+    float: left;
+    width: 20%;
+    background-color: white;
+    height: 200px;
+}
+section#midden{
+    float: left;
+    background-color: #EF233C;
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    box-sizing: border-box; /* Omvat de totale grootte van een element (breedte en hoogte) ook de padding en de rand,
+     waardoor de opgegeven afmetingen exact blijven.*/
+}
+footer{
+    clear: both;
+    text-align: center;
+    background-color: chartreuse;
+    height: 120px;
+}
+nav a{
+    text-decoration: none;
+}
+nav li{
+    list-style: none;}
+
+/* span, a, img -> always Inline Element*/
+.breedte{
+    width: 400px;
+    background-color: green;
+    margin: 20px; /* Verticale marges (margin-top en margin-bottom) hebben*/
+    padding: 20px;}
+
