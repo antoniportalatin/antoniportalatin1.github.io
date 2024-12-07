@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    padding: 0;
+    background-color:#FCF6BD ;
+    width: 100%;
+}
+h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #E4C1F9;
+    padding: 20px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+p{
+    display: inline-block;
+    background-color: #FF99C8;
+    padding: 20px;
+    text-align: center;
+    margin-left: 43%;
+    border-radius: 5px;
+
+}
+p:hover{
+    background-color: #D0F4DE;
+}
