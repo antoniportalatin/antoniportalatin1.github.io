@@ -1,0 +1,72 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #faedcd;
+    color: #6f1d1b;
+    padding: 20px;
+}
+header {
+    background-color: #ccd5ae;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.main-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2, .section-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #e9edc9;
+    padding: 10px;
+    border-radius: 8px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.hobby, .favorite-band {
+    background-color: #e9edc9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+img {
+    border-radius: 15px;
+    width: 80%;
+    height: auto;
+    max-width: 200px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #6f1d1b;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: #90e2e4;
+    color: black;
+}
+footer p a {
+    display: block;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+.table {
+    margin-top: 20px;
+    background-color: #e9edc9;
+    border-radius: 8px;
+}
+.table th, .table td {
+    text-align: center;
+}
+

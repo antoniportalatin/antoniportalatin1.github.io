@@ -24,7 +24,7 @@ header{
 }
 .absolute{
     position: absolute;
-    right: 250px;
+    right: 350px;
     bottom: 60px;
 }
 aside{
@@ -65,7 +65,7 @@ section.introduction img {
     font-style: italic;
 }
 section.gallery{
-   background-color: #999999;
+    background-color: #999999;
     width: 100%;
     display:inline-block;
     padding: 0 20px 20px 10px;
@@ -109,10 +109,10 @@ footer ul {
     padding-left: 20px;
 }
 footer ul li a {
-        color: white;
+    color: white;
 }
 footer ul li a:hover {
-        color: red;
+    color: red;
 }
 .copyright{
     background-color: white;
