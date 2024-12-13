@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+main{
+    margin:10px;
+}
+
+main > header{
+    font-size: 2em;
+    font-weight:bold;
+    padding: 10px 20px;
+    background-color: #354f52;
+    color: floralwhite;
+}
+
+nav{
+    margin:10px;
+}
+
+nav a{
+    display:block;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+    border-radius: 5px;
+    border: darkgray 1px solid;
+    box-shadow: 4px 3px 3px #2f3e46;
+    color:black;
+    text-decoration:none;
+    font-size:1.5em;
+    user-select: none;
+}
+nav a:hover{
+    background-color: lightgray;
+}
+
+nav a:active, nav a:focus{
+    background-color: darkgray;
+}
