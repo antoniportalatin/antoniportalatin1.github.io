@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Opdracht Fromvalidatie</title>
+</head>
+<body>
+<form id="formulier">
+    <label>Voornaam:
+        <input type="text" id="voornaam" maxlength="30">
+        <span class="error" id="error-voornaam"></span>
+    </label><br>
+
+    <label>Familienaam:
+        <input type="text" id="familienaam" maxlength="50" required>
+        <span class="error" id="error-familienaam"></span>
+    </label><br>
+
+    <label>Geboortedatum:
+        <input type="text" id="geboortedatum" placeholder="YYYY-MM-DD" required>
+        <span class="error" id="error-geboortedatum"></span>
+    </label><br>
+
+    <label>Email:
+        <input type="email" id="email" required>
+        <span class="error" id="error-email"></span>
+    </label><br>
+
+    <label>Aantal kinderen:
+        <input type="number" id="aantal-kinderen" min="0" max="98">
+        <span class="error" id="error-aantal-kinderen"></span>
+    </label><br>
+
+    <button type="button" onclick="valideerForm()">Valideer</button>
+</form>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
