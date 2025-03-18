@@ -1,0 +1,45 @@
+
+
+.caption {
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.gridHeader {
+    background-color: #dcd6fe;
+    padding: 30px;
+
+}
+
+.gridNav {
+    background-color: #c6c0ff;
+}
+
+.gridMain {
+    background-color: #f9f6d2;
+}
+
+.gridAside {
+    background-color: #d4ffd1;
+}
+
+.gridFooter {
+    background-color: #ffd1d1;
+    padding: 30px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns:  10% 70% 10%;
+    grid-template-areas:"  header header header"
+                        " navigation main aside "
+                        "  footer footer footer";
+}
+
+    .gridHeader{grid-area: header;}
+    .gridAside{grid-area: aside;}
+    .grid{grid-area: main;}
+    .gridNav{grid-area: navigation;}
+    .gridFooter{grid-area: footer;}
+

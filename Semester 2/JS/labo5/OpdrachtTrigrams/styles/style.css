@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#trigrams-list {
+    margin-top: 20px;
+}
+.trigram-item {
+    margin: 5px 0;
+}

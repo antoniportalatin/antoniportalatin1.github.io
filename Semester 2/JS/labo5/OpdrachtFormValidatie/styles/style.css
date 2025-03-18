@@ -1,0 +1,12 @@
+.error {
+    color: red; font-size: 12px;
+}
+.valid {
+    color: green; font-size: 12px;
+}
+.input-error {
+    border: 2px solid red;
+}
+.input-valid {
+    border: 2px solid green;
+}
