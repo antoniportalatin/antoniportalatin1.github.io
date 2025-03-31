@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.card { width: 100px;
+    height: 100px;
+    background: url('../images/achterkant.png');
+    background-size:cover;
+    cursor: pointer;
+}
+
+.flipped {
+    background-size: cover;
+}
+
+.matched {
+    visibility: hidden;
+}
+
