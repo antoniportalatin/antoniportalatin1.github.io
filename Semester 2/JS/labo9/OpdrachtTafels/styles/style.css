@@ -1,0 +1,29 @@
+.table {
+    width: 300px;
+    border: 1px solid #001f3f;
+    margin-top: 20px;
+}
+
+.table-header {
+    background-color: #001f3f;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-row {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.table-row.even {
+    background-color: #ddd;
+}
+
+#tableCont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* separación entre tablas */
+    margin-top: 20px;
+}
