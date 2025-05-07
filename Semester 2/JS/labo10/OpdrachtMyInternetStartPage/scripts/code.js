@@ -4,7 +4,7 @@ const setup = () => {
     let goButton = document.getElementById("goButton");
     goButton.addEventListener("click", go);
 
-    // 🟡 Laad bestaande history uit localStorage
+    // Laad bestaande history uit localStorage
     let stored = localStorage.getItem("history");
     if (stored) {
         historyArray = JSON.parse(stored);
